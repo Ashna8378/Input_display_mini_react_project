@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(to bottom right, #e6e6e6, #ffffff); /* New gradient colors */
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .center {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+  
+  }
+  
+  
+  
+  .container {
+    width: 350px;
+  
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  input {
+    width: calc(100% - 80px);
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  button {
+    width: 100px;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px; 
+  }
+  
+  
+  
+  .output {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
